@@ -1,0 +1,175 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+}
+
+header {
+	background-color: rgb(255, 186, 107);
+	color: #fff;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex
+}
+nav ul li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: #c3f27c;
+}
+
+section {
+	padding: 50px 20px;
+}
+
+  html, body {
+    margin: 0;
+  }
+
+.section1 {
+	background-color: #fff;
+	color: #333;
+}
+
+.section2 {
+	background-color: #c3f27c;
+	color: #1f1d1d;
+}
+
+.section2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.section2 ul li {
+	margin: 10px 0;
+	font-size: 24px;
+}
+
+.section2 a {
+	background-color: #fff;
+	color: #ff7f50;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.section2 a:hover {
+	background-color: #ff7f50;
+	color: #fff;
+}
+
+.section3 {
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.gallery img {
+	margin: 10px;
+	max-width: 200px;
+	max-height: 200px;
+	object-fit: cover;
+}
+
+.section3 a {
+	background-color: #ff7f50;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.section3 a:hover {
+	background-color: #fff;
+	color: #ff7f50;
+}
+
+.section4 {
+	background-color: #333;
+	color: #fff;
+}
+
+#show-calendar {
+	background-color: #ff7f50;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+}
+
+#calendar-container {
+	display: none;
+	margin-top: 20px;
+}
+
+.section5 {
+	background-color: #fff;
+	color: #333;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+button[type="submit"] {
+	background-color: #ff7f50;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #fff;
+	color: #ff7f50;
+}

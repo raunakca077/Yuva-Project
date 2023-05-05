@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schedular</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="js" href="script.js">
+   
+
+   
+</head>
+<body>
+	<header>
+		<h1>schedular</h1>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#trips">Trips</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#calendar">Calendar</a></li>
+				<li><a href="#login">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="home" class="section1">
+			<h2>Welcome to College Schedule Website</h2>
+			<!-- <p>Plan your next college trip with us!</p> -->
+			<button>Learn More</button>
+		</section>
+
+		<section id="trips" class="section2">
+			<h2>Upcoming Trips</h2>
+			<ul>
+				<li>College Trip 1</li>
+				<li>College Trip 2</li>
+				<li>College Trip 3</li>
+			</ul>
+			<a href="#calendar">View Calendar</a>
+		</section>
+
+		<section id="gallery" class="section3">
+			<h2>Photo Gallery</h2>
+			<div class="gallery">
+				<img src="https://via.placeholder.com/150" alt="Trip Photo">
+				<img src="https://via.placeholder.com/150" alt="Trip Photo">
+				<img src="https://via.placeholder.com/150" alt="Trip Photo">
+				<img src="https://via.placeholder.com/150" alt="Trip Photo">
+				<img src="https://via.placeholder.com/150" alt="Trip Photo">
+				<img src="https://via.placeholder.com/150" alt="Trip Photo">
+			</div>
+			<a href="#">View More Photos</a>
+			<a href="#">Upload Photos</a>
+		</section>
+
+		<section id="calendar" class="section4">
+			<h2>Event Calendar</h2>
+			<button id="show-calendar">View Calendar</button>
+			<div id="calendar-container"></div>
+		</section>
+
+		<section id="login" class="section5">
+			<h2>Login</h2>
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<button type="submit">Login</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; College Schedule Website 2023</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
